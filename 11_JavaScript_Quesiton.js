@@ -7,7 +7,7 @@ let array = [2, 4, 45, 1, 65, 7];
 let newArr = [];
 
 function greatestLowest(arr) {
-  newArr.push(arr.sort((a, b) => a - b)[1]);
+  newArr.push(arr.sort((a, b) => a - b)[1])[1];
   newArr.push(arr.sort((a, b) => a - b)[arr.length - 2]);
   console.log(newArr.join(","));
 }
