@@ -2,7 +2,6 @@
 
 function repetition(str) {
   let array = str.toLowerCase().split("").sort();
-  console.log(array);
   let count = 1;
   for (let i = 0; i < array.length; i++) {
     if (array[i] == array[i + 1]) {
@@ -13,4 +12,4 @@ function repetition(str) {
     }
   }
 }
-repetition("thequickbrownfoxjumpsoveralazydog");
+repetition("hello");
